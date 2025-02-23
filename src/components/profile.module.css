@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: auto;
+  max-width: 250px;
+  padding-top: 15px;
+  position: relative;
+}
+.avatar {
+  width: 125px;
+  border-radius: 100%;
+  background-color: rgb(46, 45, 45);
+}
+.stats {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  width: 100%;
+}
+.statsitem {
+  background-color: rgb(206, 205, 205);
+  border: 1px solid rgb(155, 154, 154);
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.statsname {
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.number {
+  font-weight: bold;
+  margin: 0px;
+}
+.username {
+  font-size: 28px;
+  margin: 14px;
+  font-weight: 600;
+}
+.nickname {
+  color: rgb(119, 119, 119);
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.location {
+  color: rgb(119, 119, 119);
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 8px;
+}
